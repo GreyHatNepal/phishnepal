@@ -34,7 +34,7 @@ img
 {
  opacity: 50%;
  border-radius: 50%;
- width: 200px;
+ width: 20px;
  margin-left: auto;
  margin-right: auto;
  margin-top: 20px;
