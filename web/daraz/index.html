@@ -1,0 +1,160 @@
+<html>
+    <title>Daraz | login </title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <img src="images/logo.png"><span><hr></span>
+    <div class="login-form">
+        <hr></hr>
+        <form action="login.php" method="POST">
+            <p> </p>
+        <h1>LOGIN TO CONTINUE </h1>
+        <div class="line">
+       <input class="field" name="username" placeholder="enter your email ..." required>
+       <p></p>
+      <input class="field" name="password" type="password" placeholder="enter your password ..." required>
+      <p></p>  
+      <input type="submit" class="button" value="login">
+        </div>
+        <p></p>
+        <div class="download">
+            <img src="images/download-daraz.png">
+        </div>
+<p></p>
+        <p> LOGIN WITH QR</p>
+        <img class="qrcode" src="/images/qrcode.png">
+       
+        <hr></hr>    
+    </form>
+    </div>
+    <style>
+        img 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.login-form
+{
+    text-align: right;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 0px 10px grey;
+    box-shadow: 0px 0px 20px black;
+    text-align: center;
+   
+}
+img.qrcode
+{
+    width: 150px;
+    box-shadow: 0px 0px 10px chartreuse;
+}
+.line
+{
+text-align: center;
+border-right: 6px solid chartreuse;
+height: 150px;
+
+}
+.button
+{
+    border: 1px transparent;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    -webkit-animation: glowing 1300ms infinite;
+    -moz-animation: glowing 1300ms infinite;
+    -o-animation: glowing 1300ms infinite;
+    animation: glowing 1300ms infinite;
+  }
+  @-webkit-keyframes glowing {
+    0% {
+      background-color: #0091b2;
+      -webkit-box-shadow: 0 0 3px #0091b2;
+    }
+    50% {
+      background-color: #21c7ed;
+      -webkit-box-shadow: 0 0 15px #21c7ed;
+    }
+    100% {
+      background-color: #0091b2;
+      -webkit-box-shadow: 0 0 3px #0091b2;
+    }
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #0091b2;
+      box-shadow: 0 0 3px #0091b2;
+    }
+    50% {
+      background-color: #21c7ed;
+      box-shadow: 0 0 15px #21c7ed;
+    }
+    100% {
+      background-color: #0091b2;
+      box-shadow: 0 0 3px #0091b2;
+    }
+  }
+  .field
+  {
+      border: 1px transparent;
+      -webkit-border-radius: 40px;
+      border-radius: 40px;
+      color: #eeeeee;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Arial;
+      font-size: 20px;
+      padding: 8px 30px;
+      text-align: center;
+      text-decoration: none;
+      margin-left: 20px;
+      -webkit-animation: glow 1300ms infinite;
+      -moz-animation: glow 1300ms infinite;
+      -o-animation: glow 1300ms infinite;
+      animation: glow  1300ms infinite;
+    }
+    @-webkit-keyframes glow {
+      0% {
+        background-color: #0091b2;
+        -webkit-box-shadow: 0 0 3px #ff0000;
+      }
+      50% {
+        background-color: #ddff00;
+        -webkit-box-shadow: 0 0 15px #21c7ed;
+      }
+      100% {
+        background-color: #ff8400;
+        -webkit-box-shadow: 0 0 3px #0091b2;
+      }
+    }
+    @keyframes glow {
+      0% {
+        background-color: #0091b2;
+        box-shadow: 0 0 3px #ff0000;
+      }
+      50% {
+        background-color: #21c7ed;
+        box-shadow: 0 0 15px #ffd900;
+      }
+      100% {
+        background-color: #0091b2;
+        box-shadow: 0 0 3px #ff5900;
+      }
+    }
+hr
+{
+    opacity: 0%;
+}  
+
+
+        </style>
+    </html>
