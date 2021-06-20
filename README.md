@@ -2,15 +2,10 @@
 
 <html>
 
-<img src="https://i.imgur.com/hAdz1hL.png" alt="Logo Loading .." width="50px">
-
-<title>Anonymous Nepal</title>
-
-<body>
-
-<div class="content" id="news">
+<img src="https://i.imgur.com/hAdz1hL.png" alt="Logo Loading .." width="200px">
+<center>
 <p class="name">Anonymous Nepal</p>
-
+</center>
 <p class="glowtext">&copy; YourAnonNewsNp | <a href="mailto:greyhatnepal@protonmail.com">E-MAIL</a>   
 
  
