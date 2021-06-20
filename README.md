@@ -7,14 +7,13 @@
 
 ## INSTALLATION
 
--| anonymous@anonymous:-$ git clone https://github.com/greyhatnepal/phishnepal   |
-  ***
--| anonymous@anonymous:-$ cd phishnepal                                          |
-  ***
--| anonymous@anonymous:-$ sudo cmhod +x *                                        |
-  ***
--| anonymous@anonymous:-$ ./phishnepal                                           |
-
+anonymous@anonymous:-$ git clone https://github.com/greyhatnepal/phishnepal   
+***
+anonymous@anonymous:-$ cd phishnepal                                          
+***
+anonymous@anonymous:-$ sudo cmhod +x *                                        
+***
+anonymous@anonymous:-$ ./phishnepal                                           
 ***
 
 ### Usage Demo:
